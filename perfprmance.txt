@@ -1,0 +1,38 @@
+Training ========================= >>
+Models: lSVM, RF, GBM
+Metric: f1
+
+
+Results for LinearSVM:
+Fit ---------------------------------------------
+Train evaluation --> f1: 0.9946
+Test evaluation --> f1: 0.6517
+Time elapsed: 02m:05s
+-------------------------------------------------
+Time: 02m:05s
+
+
+Results for RandomForest:
+Fit ---------------------------------------------
+Train evaluation --> f1: 0.9973
+Test evaluation --> f1: 0.5412
+Time elapsed: 01m:36s
+-------------------------------------------------
+Time: 01m:36s
+
+
+Results for GradientBoostingMachine:
+Fit ---------------------------------------------
+Train evaluation --> f1: 0.9973
+Test evaluation --> f1: 0.6353
+Time elapsed: 01m:46s
+-------------------------------------------------
+Time: 01m:46s
+
+
+Final results ==================== >>
+Total time: 05m:27s
+-------------------------------------
+LinearSVM               --> f1: 0.6517 ~ !
+RandomForest            --> f1: 0.5412 ~
+GradientBoostingMachine --> f1: 0.6353 ~
